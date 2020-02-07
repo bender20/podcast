@@ -1,0 +1,388 @@
+@media screen and (max-width: 600px) {
+    body {
+        display: block;
+        overflow-x: hidden;
+    }
+    header {
+        display: block;
+    }
+    div.menu {
+        width: 100%;
+        height: 54px;
+    }
+    div.barra {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 54px;
+    }
+    div.bar_l {
+        display: flex;
+        position: relative;
+        top: 0px;
+        left: 16px;
+    }
+    #menu {
+        display: flex;
+        position: relative;
+        top: 17px;
+        right: 20px;
+        width: 14px;
+        height: 14px;
+        background: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        cursor: pointer;
+    }
+    #cierre {
+        display: flex;
+        position: relative;
+        text-align: center;
+        top: -45px;
+        right: 14px;
+        width: 20px;
+        height: 16px;
+        padding: 0px;
+        background: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        cursor: pointer;
+
+    }
+    label {
+        display: flex;
+        justify-content: flex-end;
+        cursor: default;
+      
+    }
+    #men-hidden {
+        display: none;
+    }
+    #men {
+        display: none;
+        position: absolute;
+        top: 62px;
+        width: 100%;
+        height: 224px;
+        background: #0000ec;
+        list-style: none;
+        z-index: 2;
+    }
+    #men li a {
+        color: white;
+        padding: 10px 16px;
+        display: block;
+        font-family: "IBMPlexMono";
+        font-size: 16px;
+        letter-spacing: 0;
+        line-height: 28px;
+        text-decoration: none;
+    }
+    #men li a:hover {
+        font-family: 'IBMPlexMono-Medium';
+        font-size: 16px;
+        text-decoration: line-through;
+        color: #00F3BB;
+        letter-spacing: 0;
+        line-height: 28px;
+    }
+    #men li a:active {
+        font-family: "IBMPlexMono";
+        font-size: 16px;
+        text-decoration: line-through;
+        color: rgba(6,10,36,0.56);
+        letter-spacing: 0;
+        line-height: 28px;
+    }
+    #men-hidden:checked + #men {
+        display: block;
+    }
+    main {
+        width: 100%;
+        background-color:#fff;
+    }
+    div.titulo1 {
+        display: flex;
+        position: relative;
+        justify-content: flex-start;
+        top: 20px;
+        padding-left: 10%;
+        width: 80%;
+        z-index: 0;
+    }
+    h1.titu64 {
+        display: none;
+    }
+    h1.tituc36 {
+        font-family: "IBMPlexSans";
+        font-size: 36px;
+        color: #060A24;
+        line-height: 42px;
+    }
+    span.tacha {
+        text-decoration: line-through;
+    }
+    div.parrafo1 {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        top: 35px;
+        padding-left: 10px;
+    }
+    .parra {
+        display: none;
+    }
+    .parrac {
+        font-family: "IBMPlexMono";
+        font-size: 14px;
+        color: #060A24;
+        line-height: 22px;
+        max-width: 300px;
+    }
+    div.nos {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        top: 70px;
+
+    }
+    a.boton1 {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        background-color: #00f3bb;
+        width: 288px;
+        height: 48px;
+        font-family: "IBMPlexMono-Medium";
+        font-size: 16px;
+        color: #060A24;
+        line-height: 22px;
+        text-decoration: none;
+    }
+    a.boton1:hover {
+        background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+        color: #FFFFFF;
+    }
+    div.azul {
+        display: flex;
+        position: relative;
+        top: 127px;
+        width: 100%;
+        height: 1200px;
+        background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+        transform: skewY(-6deg);
+        transform-origin: top left;
+    }
+    div.episodio {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+        transform: skewY(6deg);
+        align-items: center;
+    }
+    div.episodio > h3.epi {
+        display: flex;
+        position: relative;
+        top: 45px;
+        padding-left: 5%;
+        flex-wrap: nowrap;
+        width: 80%;
+        height: 50px;
+    }
+    h3.epi {
+        font-family: "IBMPlexSans";
+        font-size: 36px;
+        color: #FFFFFF;
+        line-height: 42px;
+    }
+    .podcast {
+        display: flex;
+        position: relative;
+        top: 60px;
+        width: 301px;
+        height: 232px;
+        padding-bottom: 11px;
+    }
+    div.nosotros {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        top: 35px;
+    }
+    div.nosotres {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+    }
+    img.phone {
+        width: 320px;
+    }
+    div.dos {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+    }
+    div.titulo2 {
+        display: flex;
+        position: relative;
+        top: 20px;
+        padding-left: 16px;
+    }
+    h3.titu48 {
+        display: none;
+    }
+    h3.tituc48 {
+        font-family: "IBMPlexSans";
+        font-size: 36px;
+        color: #060A24;
+        line-height: 42px;
+    }
+    div.parrafo2 {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        top: 27px;
+        left: 16px;
+        width: 290px;
+    }
+    div.titulo3 {
+        display: flex;
+        position: relative;
+        justify-content: space-around;
+        top: 100px;
+        padding-left: 10%;
+        padding-right: 50px;
+    }
+    div.media {
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        justify-content: center;
+        top: 25px;
+    }
+    img.medio {
+        display: flex;
+        position: relative;
+        top: 100px;
+        width: 320px;
+    }
+    div.titulo4 {
+        display: flex;
+        position: relative;
+        justify-content: space-around;
+        top: 165px;
+        padding-left: 10%;
+        padding-right: 50px;
+    }
+    div.media2 {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        top: 120px;
+        text-align: center;
+    }
+    div.med {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 35px;
+    }
+    img.medio2 {
+        width: 104px;
+        padding-top: 25px;
+    }
+    p.med2 {
+        padding-top: 15px;
+        font-family: "IBMPlexSans-SemiBold";
+        font-size: 24px;
+        color: #060A24;
+        text-align: center;
+        line-height: 30px;
+        width: 300px;
+    }
+    p.med21 {
+        padding-top: 15px;
+        font-family: "IBMPlexSans-SemiBold";
+        font-size: 24px;
+        color: #060A24;
+        text-align: center;
+    }
+    div.diagonal {
+        display: flex;
+        position: relative;
+        top: 205px;
+        background-image: linear-gradient(270deg, #0000FF 0%, #0000A3 100%);
+        transform: skewY(-6deg);
+        transform-origin: left top;
+        width: auto;
+        height: 80px;
+    }
+    div.azul2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        background-image: linear-gradient(270deg, #0000FF 0%, #0000A3 100%);
+        top: 140px;
+        width: auto;
+        height: 277px;
+    }
+    p.titu36 {
+        font-family: "IBMPlexSans";
+        font-size: 36px;
+        color: #FFFFFF;
+        text-align: center;
+        line-height: 42px;
+        width: 250px;
+    }
+    a.boton2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #00f3bb;
+        margin-top: 35px;
+        width: 288px;
+        height: 48px;
+        font-family: "IBMPlexMono-Medium";
+        font-size: 16px;
+        color: #060A24;
+        line-height: 22px;
+        text-decoration: none;
+    }
+    a.boton2:hover {
+        background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+        color: #FFFFFF;
+    }
+    footer.pie {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        top: 140px;
+        width: 100%;
+        background-color:#fff;
+        padding-bottom: 67px;
+    }
+    div.foot {
+        display: flex;
+        position: relative;
+        top: 24px;
+        justify-content: center;
+        width: 320px;
+        padding-bottom: 14px;
+    }
+    p.parra14 {
+        font-family: "IBMPlexMono";
+        font-size: 14px;
+        color: #060A24;
+        line-height: 22px;
+    }
+    div.icono {
+        display: flex;
+        position: relative;
+        top: 30px;
+        justify-content: space-around;
+        width: 270px;
+    }
+}
